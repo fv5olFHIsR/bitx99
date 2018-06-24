@@ -12,3 +12,43 @@
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+.convoget{
+  color: white;
+  background: #3d3c5c;
+  padding: 3px;
+  font-size: 10px;
+  padding-left: 10px;
+  margin-bottom: 1px;
+  border-radius: 0px 10px 10px 0px;
+  padding-right: 6px;
+  cursor:pointer;
+}
+.chatContainer{
+  position: relative;
+  max-width: 300px;
+  overflow: hidden;
+  height: calc(100vh - (40px));
+}
+.messagesHolder{
+  overflow-y: scroll;
+  height: calc(100% - (100px));
+}
+.message{
+  background: white;
+  width: 80%;
+  float: right;
+  padding: 8px;
+  border-radius: 7px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(232,232,232,1);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(232,232,232,1);
+  box-shadow: 2px 2px 5px 0px rgba(232,232,232,1);
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+.user_sent{
+  margin-right: 5px;
+}
+.conversations{
+  position: absolute;
+  top: 0px;
+}
