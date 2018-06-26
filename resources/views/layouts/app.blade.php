@@ -13,6 +13,9 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
+    {{-- PUSHER --}}
+    <script src="https://js.pusher.com/4.1/pusher.min.js"></script>
+    
     <!-- Fonts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
